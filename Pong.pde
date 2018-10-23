@@ -64,12 +64,12 @@ void update() {
   if (left.touchingPuck(puck)) {
     println("left touch");
     puck.xspeed *= -1; 
-    println(puck.xspeed);
+    //println(puck.xspeed);
  }
  if (right.touchingPuck(puck)) {
     println("right touch");
     puck.xspeed *= -1; 
-    println(puck.xspeed);
+    //println(puck.xspeed);
  }
  
  
